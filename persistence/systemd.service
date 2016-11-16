@@ -1,0 +1,9 @@
+[Unit]
+Description=Prometheus NVIDIA Telemetry Exporter
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+ExecStart=/opt/prometheus/nvidia_exporter/nvidia_exporter
+User=research
+Group=research
