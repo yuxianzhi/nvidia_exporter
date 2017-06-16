@@ -2,7 +2,7 @@ package main
 
 /*
 #cgo CFLAGS: -I/usr/local/cuda-8.0/include
-#cgo LDFLAGS: -lnvidia-ml -L/usr/lib/nvidia-367
+#cgo LDFLAGS: bridge.o -lnvidia-ml -L/usr/lib/nvidia-375
 
 #include "bridge.h"
 */
